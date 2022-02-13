@@ -1,7 +1,3 @@
-body{
-    background: #BDBDBD;
-}
-
 .jumbotron {
     background-image: url("../img/bg.jpg");
     background-position: center;
@@ -26,15 +22,40 @@ body{
     font-weight: 700;
 }
 
-.heading-space{
+.heading-space, .services-space{
     padding: 1rem 4rem 1rem 4rem;
     background-color: white;
     padding-top: 2rem;
-    height:36rem;
+    height:32rem;
 }
 
-#heisenberg {
+#heisenberg, #keyboard {
     width: 20rem;
     border-radius: 50%;
     object-fit: contain;
 }
+
+.card {
+    width: 20rem;
+}
+
+form{
+    margin:auto;
+    background-color: #F5F5F5;
+    border: 1px solid grey
+}
+
+.submit {
+    float: right;
+    padding-top: 1rem;
+}
+
+#message {
+    height:10rem;
+}
+
+#message::placeholder {
+    float: left;
+}
+
+
